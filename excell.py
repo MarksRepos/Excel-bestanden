@@ -48,7 +48,7 @@ for persoon in personen:
 
 wb.save('een jaartje ouder.xlsx')
 
-print("\nKlaar!")
+print("\nVerwerking gereed!")
 
 
 
