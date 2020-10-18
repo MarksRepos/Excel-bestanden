@@ -31,6 +31,7 @@ class Persoon():
         self.leeftijd = self.leeftijd + 1
         print(f'{self.naam} is nu {self.leeftijd} jaren oud. Hoera')
 
+
 personen = []
 
 for rij in ws.iter_rows(min_row=2):
@@ -47,7 +48,7 @@ for persoon in personen:
 
 wb.save('een jaartje ouder.xlsx')
 
-
+print("\nKlaar!")
 
 
 
