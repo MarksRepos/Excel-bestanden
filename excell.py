@@ -29,7 +29,7 @@ class Persoon():
 
     def is_jarig(self):
         self.leeftijd = self.leeftijd + 1
-        print(f'{self.naam} is nu {self.leeftijd} jaren oud.')
+        print(f'{self.naam} is nu {self.leeftijd} jaren oud. Hoera')
 
 personen = []
 
