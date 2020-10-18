@@ -7,7 +7,7 @@ wb = load_workbook(filename='voorbeeld.xlsx')
 
 ws = wb['Personen']
 
-
+# test
 # for cell in ws['B']:
 #     print(cell.value)
 
